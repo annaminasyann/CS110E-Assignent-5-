@@ -70,8 +70,9 @@ function trim(string){
     }
     else if(string[i + string.length-1] === " "){
         space = string.substr(1, string.length - 1);
-    return space;
     }
+    return space;
+    
 }
 console.log(trim);
 
