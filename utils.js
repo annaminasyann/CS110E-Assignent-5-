@@ -64,17 +64,16 @@ console.log(countWords);
 
 function trim(string){
     let space = " ";
-    let i = 0;
+    for (let i = 0; i < string.length; i++){
     if (string[i] === " "){
         space = string.substr(1, string.length - 1);
     }
-    else if(string[i + string.length-1] === " "){
-        space = string.substr(1, string.length - 1);
-    }
+ }
     return space;
     
 }
 console.log(trim);
+
 
 
 
