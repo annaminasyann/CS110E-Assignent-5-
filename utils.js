@@ -68,7 +68,7 @@ function trim(string){
     if (string[i] === " "){
         space = string.substr(1, string.length - 1);
     }
-    else if(string[i + string.kength-1] === " "){
+    else if(string[i + string.length-1] === " "){
         space = string.substr(1, string.length - 1);
     return space;
     }
